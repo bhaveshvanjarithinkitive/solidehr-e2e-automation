@@ -1,0 +1,29 @@
+{
+  "name": "solidehr-e2e-automation",
+  "version": "1.0.0",
+  "description": "E2E Playwright automation for SolidEHR Provider Portal",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:ui": "npx playwright test --ui",
+    "test:chromium": "npx playwright test --project=chromium",
+    "test:debug": "npx playwright test --debug",
+    "test:login": "npx playwright test tests/e2e/login.spec.js",
+    "test:patients": "npx playwright test tests/e2e/patients.spec.js",
+    "test:scheduling": "npx playwright test tests/e2e/scheduling.spec.js",
+    "test:encounters": "npx playwright test tests/e2e/encounters.spec.js",
+    "test:tasks": "npx playwright test tests/e2e/tasks.spec.js",
+    "test:billing": "npx playwright test tests/e2e/billing.spec.js",
+    "test:triage": "npx playwright test tests/e2e/triage.spec.js",
+    "test:settings": "npx playwright test tests/e2e/settings.spec.js",
+    "test:cpt-codes": "npx playwright test tests/e2e/cpt-codes.spec.js",
+    "report": "npx playwright show-report"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.0.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0"
+  }
+}
