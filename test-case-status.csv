@@ -1,0 +1,150 @@
+,setup,authenticate,passed,0,auth.setup.js
+TC-CPT-001,chromium,TC-CPT-001: Create CPT code with all mandatory fields,passed,0,e2e.cpt-codes.spec.js
+TC-CPT-002,chromium,TC-CPT-002: Create CPT code with all fields populated,passed,0,e2e.cpt-codes.spec.js
+TC-CPT-003,chromium,TC-CPT-003: Create CPT code with category only (no amount),passed,0,e2e.cpt-codes.spec.js
+TC-CPT-004,chromium,TC-CPT-004: Submit form with all fields empty,passed,0,e2e.cpt-codes.spec.js
+TC-CPT-005,chromium,TC-CPT-005: Submit form with Code filled but Description empty,passed,0,e2e.cpt-codes.spec.js
+TC-CPT-006,chromium,TC-CPT-006: Submit form with Description filled but Code empty,passed,0,e2e.cpt-codes.spec.js
+TC-CPT-007,chromium,TC-CPT-007: Create duplicate CPT code,passed,0,e2e.cpt-codes.spec.js
+TC-CPT-008,chromium,TC-CPT-008: Create CPT code with negative default amount,passed,0,e2e.cpt-codes.spec.js
+TC-CPT-009,chromium,TC-CPT-009: Create CPT code with very long description,passed,0,e2e.cpt-codes.spec.js
+TC-CPT-010,chromium,TC-CPT-010: Create CPT code with special characters in code,passed,0,e2e.cpt-codes.spec.js
+TC-CPT-011,chromium,TC-CPT-011: Create CPT code with decimal amount precision,passed,0,e2e.cpt-codes.spec.js
+TC-CPT-012,chromium,TC-CPT-012: Create CPT code with zero default amount,passed,0,e2e.cpt-codes.spec.js
+TC-CPT-013,chromium,TC-CPT-013: Create CPT code with inactive status,passed,0,e2e.cpt-codes.spec.js
+TC-CPT-014,chromium,TC-CPT-014: Create CPT code with single character code,passed,0,e2e.cpt-codes.spec.js
+TC-CPT-015,chromium,TC-CPT-015: Create CPT code with very large default amount,passed,0,e2e.cpt-codes.spec.js
+TC-CPT-016,chromium,TC-CPT-016: Edit CPT code - update description,skipped,0,e2e.cpt-codes.spec.js
+TC-CPT-017,chromium,TC-CPT-017: Edit CPT code - update default amount,passed,0,e2e.cpt-codes.spec.js
+TC-CPT-018,chromium,TC-CPT-018: Edit CPT code - add category to uncategorized code,passed,0,e2e.cpt-codes.spec.js
+TC-CPT-019,chromium,TC-CPT-019: Edit CPT code - change status to inactive,passed,0,e2e.cpt-codes.spec.js
+TC-CPT-020,chromium,TC-CPT-020: Edit CPT code - clear mandatory code field,passed,0,e2e.cpt-codes.spec.js
+TC-CPT-021,chromium,TC-CPT-021: Edit CPT code - clear mandatory description field,passed,0,e2e.cpt-codes.spec.js
+TC-CPT-022,chromium,TC-CPT-022: Edit CPT code - change code to existing duplicate,passed,0,e2e.cpt-codes.spec.js
+TC-CPT-023,chromium,TC-CPT-023: Edit CPT code - no changes made,passed,0,e2e.cpt-codes.spec.js
+TC-CPT-024,chromium,TC-CPT-024: Edit CPT code - remove category,passed,0,e2e.cpt-codes.spec.js
+TC-CPT-025,chromium,TC-CPT-025: Cancel edit - changes not saved,passed,0,e2e.cpt-codes.spec.js
+TC-CPT-026,chromium,TC-CPT-026: Delete CPT code with confirmation,passed,0,e2e.cpt-codes.spec.js
+TC-CPT-027,chromium,TC-CPT-027: Cancel delete - code preserved,passed,0,e2e.cpt-codes.spec.js
+TC-CPT-028,chromium,TC-CPT-028: Delete CPT code that is linked to encounters,skipped,0,e2e.cpt-codes.spec.js
+TC-CPT-030,chromium,TC-CPT-030: Rapid double-click on delete button,passed,0,e2e.cpt-codes.spec.js
+TC-CPT-031,chromium,TC-CPT-031: Delete the last remaining CPT code,passed,0,e2e.cpt-codes.spec.js
+TC-CPT-032,chromium,TC-CPT-032: Delete and verify list count updates,passed,0,e2e.cpt-codes.spec.js
+TC-CPT-033,chromium,TC-CPT-033: View CPT codes list - default view,passed,0,e2e.cpt-codes.spec.js
+TC-CPT-034,chromium,TC-CPT-034: Search CPT codes by code,passed,0,e2e.cpt-codes.spec.js
+TC-CPT-035,chromium,TC-CPT-035: Search CPT codes by description,passed,0,e2e.cpt-codes.spec.js
+TC-CPT-036,chromium,TC-CPT-036: Search CPT codes by category,passed,0,e2e.cpt-codes.spec.js
+TC-CPT-037,chromium,TC-CPT-037: Search with no matching results,passed,0,e2e.cpt-codes.spec.js
+TC-CPT-038,chromium,TC-CPT-038: Clear search to restore full list,passed,0,e2e.cpt-codes.spec.js
+TC-CPT-039,chromium,TC-CPT-039: Search with special characters (ampersand),passed,0,e2e.cpt-codes.spec.js
+TC-CPT-040,chromium,TC-CPT-040: Search is case-insensitive,passed,0,e2e.cpt-codes.spec.js
+TC-CPT-041,chromium,TC-CPT-041: Empty CPT codes list shows empty state,passed,0,e2e.cpt-codes.spec.js
+TC-CPT-042,chromium,TC-CPT-042: Verify column data formatting,passed,0,e2e.cpt-codes.spec.js
+TC-CPT-043,chromium,TC-CPT-043: Navigate to CPT Codes tab via URL,passed,0,e2e.cpt-codes.spec.js
+TC-CPT-044,chromium,TC-CPT-044: Switch between Settings tabs and back to CPT,passed,0,e2e.cpt-codes.spec.js
+TC-CPT-045,chromium,TC-CPT-045: Search and add CPT code to encounter,skipped,0,e2e.cpt-codes.spec.js
+TC-CPT-046,chromium,TC-CPT-046: Add multiple CPT codes to encounter,skipped,0,e2e.cpt-codes.spec.js
+TC-CPT-047,chromium,TC-CPT-047: Remove CPT code from encounter,skipped,0,e2e.cpt-codes.spec.js
+TC-CPT-050,chromium,TC-CPT-050: Search CPT with less than 2 characters,skipped,0,e2e.cpt-codes.spec.js
+TC-CPT-051,chromium,TC-CPT-051: Search CPT with no matching results in encounter,skipped,0,e2e.cpt-codes.spec.js
+TC-CPT-052,chromium,TC-CPT-052: Add CPT code to signed encounter (should be read-only),passed,0,e2e.cpt-codes.spec.js
+TC-CPT-058,chromium,TC-CPT-058: Create appointment type without CPT code,passed,0,e2e.cpt-codes.spec.js
+TC-CPT-063,chromium,TC-CPT-063: Access CPT codes with valid authentication,passed,0,e2e.cpt-codes.spec.js
+TC-CPT-064,chromium,TC-CPT-064: Access CPT codes without authentication,passed,0,e2e.cpt-codes.spec.js
+TC-CPT-067,chromium,TC-CPT-067: XSS injection in CPT code description,passed,0,e2e.cpt-codes.spec.js
+TC-CPT-071,chromium,TC-CPT-071: Modal close via X button,passed,0,e2e.cpt-codes.spec.js
+TC-CPT-072,chromium,TC-CPT-072: Success toast auto-dismissal,passed,0,e2e.cpt-codes.spec.js
+TC-CPT-073,chromium,TC-CPT-073: Save button disabled during save operation,passed,0,e2e.cpt-codes.spec.js
+TC-PAT-001,chromium,TC-PAT-001: Create patient with all mandatory fields,passed,0,e2e.patients.spec.js
+TC-PAT-002,chromium,TC-PAT-002: Create patient with all fields populated,passed,0,e2e.patients.spec.js
+TC-PAT-003,chromium,TC-PAT-003: Create patient with "No Email" option,passed,0,e2e.patients.spec.js
+TC-PAT-004,chromium,TC-PAT-004: Submit form with all mandatory fields empty,passed,0,e2e.patients.spec.js
+TC-PAT-005,chromium,TC-PAT-005: Submit form with invalid email format,passed,0,e2e.patients.spec.js
+TC-PAT-006,chromium,TC-PAT-006: Submit form with invalid email - missing domain,passed,0,e2e.patients.spec.js
+TC-PAT-007,chromium,TC-PAT-007: Submit form with invalid email - missing @ symbol,passed,0,e2e.patients.spec.js
+TC-PAT-008,chromium,TC-PAT-008: Submit form with only First Name filled,passed,0,e2e.patients.spec.js
+TC-PAT-009,chromium,TC-PAT-009: Create patient with special characters in name,passed,0,e2e.patients.spec.js
+TC-PAT-010,chromium,TC-PAT-010: Create patient with very long name values,passed,0,e2e.patients.spec.js
+TC-PAT-011,chromium,TC-PAT-011: Create patient with future date of birth,passed,0,e2e.patients.spec.js
+TC-PAT-012,chromium,TC-PAT-012: Create patient with date of birth > 150 years ago,passed,0,e2e.patients.spec.js
+TC-PAT-013,chromium,TC-PAT-013: Phone number auto-formatting,passed,0,e2e.patients.spec.js
+TC-PAT-014,chromium,TC-PAT-014: SSN auto-formatting,passed,0,e2e.patients.spec.js
+TC-PAT-015,chromium,TC-PAT-015: Phone number with fewer than 10 digits,passed,0,e2e.patients.spec.js
+TC-PAT-016,chromium,TC-PAT-016: Phone number with more than 10 digits,passed,0,e2e.patients.spec.js
+TC-PAT-017,chromium,TC-PAT-017: Zip code with leading zeros,passed,0,e2e.patients.spec.js
+TC-PAT-018,chromium,TC-PAT-018: Single character in First Name,passed,0,e2e.patients.spec.js
+TC-PAT-019,chromium,TC-PAT-019: XSS injection in patient name,passed,0,e2e.patients.spec.js
+TC-PAT-020,chromium,TC-PAT-020: SQL injection in search field,passed,0,e2e.patients.spec.js
+TC-PAT-021,chromium,TC-PAT-021: HTML injection in address fields,passed,0,e2e.patients.spec.js
+TC-PAT-023,chromium,TC-PAT-023: Edit patient - update basic fields,passed,0,e2e.patients.spec.js
+TC-PAT-024,chromium,TC-PAT-024: Edit patient - update email,passed,0,e2e.patients.spec.js
+TC-PAT-025,chromium,TC-PAT-025: Edit patient - form pre-population verification,passed,0,e2e.patients.spec.js
+TC-PAT-026,chromium,TC-PAT-026: Edit patient - clear mandatory field,passed,0,e2e.patients.spec.js
+TC-PAT-027,chromium,TC-PAT-027: Edit patient - invalid email update,passed,0,e2e.patients.spec.js
+TC-PAT-028,chromium,TC-PAT-028: Edit non-existent patient,passed,0,e2e.patients.spec.js
+TC-PAT-029,chromium,TC-PAT-029: Edit patient - no changes made,passed,0,e2e.patients.spec.js
+TC-PAT-030,chromium,TC-PAT-030: Edit patient - toggle No Email on,passed,0,e2e.patients.spec.js
+TC-PAT-032,chromium,TC-PAT-032: Cancel edit - data not saved,passed,0,e2e.patients.spec.js
+TC-PAT-033,chromium,TC-PAT-033: View patient list - default view,passed,0,e2e.patients.spec.js
+TC-PAT-034,chromium,TC-PAT-034: Search patient by name,passed,0,e2e.patients.spec.js
+TC-PAT-035,chromium,TC-PAT-035: Search patient by MRN,passed,0,e2e.patients.spec.js
+TC-PAT-036,chromium,TC-PAT-036: Search patient by phone number,passed,0,e2e.patients.spec.js
+TC-PAT-037,chromium,TC-PAT-037: Search with no matching results,passed,0,e2e.patients.spec.js
+TC-PAT-038,chromium,TC-PAT-038: Clear search results,passed,0,e2e.patients.spec.js
+TC-PAT-039,chromium,TC-PAT-039: Search with special characters,passed,0,e2e.patients.spec.js
+TC-PAT-040,chromium,TC-PAT-040: Rapid typing in search (debounce test),passed,0,e2e.patients.spec.js
+TC-PAT-041,chromium,TC-PAT-041: Filter patients by Active status,passed,0,e2e.patients.spec.js
+TC-PAT-042,chromium,TC-PAT-042: Filter patients by Inactive status,passed,0,e2e.patients.spec.js
+TC-PAT-043,chromium,TC-PAT-043: Filter patients - All,passed,0,e2e.patients.spec.js
+TC-PAT-044,chromium,TC-PAT-044: Sort patients by name ascending,passed,0,e2e.patients.spec.js
+TC-PAT-045,chromium,TC-PAT-045: Sort patients by name descending,passed,0,e2e.patients.spec.js
+TC-PAT-046,chromium,TC-PAT-046: Navigate to next page,passed,0,e2e.patients.spec.js
+TC-PAT-047,chromium,TC-PAT-047: View patient profile - Demographics/Facesheet,passed,0,e2e.patients.spec.js
+TC-PAT-048,chromium,TC-PAT-048: Navigate between profile tabs,passed,0,e2e.patients.spec.js
+TC-PAT-049,chromium,TC-PAT-049: Navigate to edit from profile,passed,0,e2e.patients.spec.js
+TC-PAT-051,chromium,TC-PAT-051: View profile of non-existent patient,passed,0,e2e.patients.spec.js
+TC-PAT-052,chromium,TC-PAT-052: View profile of patient with minimal data,passed,0,e2e.patients.spec.js
+TC-PAT-053,chromium,TC-PAT-053: Back navigation from profile,passed,0,e2e.patients.spec.js
+TC-PAT-054,chromium,TC-PAT-054: Profile with long data values,passed,0,e2e.patients.spec.js
+TC-PAT-055,chromium,TC-PAT-055: Deactivate an active patient,passed,0,e2e.patients.spec.js
+TC-PAT-056,chromium,TC-PAT-056: Reactivate an inactive patient,passed,0,e2e.patients.spec.js
+TC-PAT-058,chromium,TC-PAT-058: Rapid toggle - double click prevention,passed,0,e2e.patients.spec.js
+TC-PAT-059,chromium,TC-PAT-059: Toggle status and verify list update,passed,0,e2e.patients.spec.js
+TC-PAT-060,chromium,TC-PAT-060: Row actions menu items,passed,0,e2e.patients.spec.js
+TC-PAT-061,chromium,TC-PAT-061: Add single emergency contact during registration,passed,0,e2e.patients.spec.js
+TC-PAT-062,chromium,TC-PAT-062: Add multiple emergency contacts,passed,0,e2e.patients.spec.js
+TC-PAT-063,chromium,TC-PAT-063: Remove an emergency contact,passed,0,e2e.patients.spec.js
+TC-PAT-064,chromium,TC-PAT-064: Add emergency contact with invalid phone,passed,0,e2e.patients.spec.js
+TC-PAT-065,chromium,TC-PAT-065: Add emergency contact with all fields empty,passed,0,e2e.patients.spec.js
+TC-PAT-066,chromium,TC-PAT-066: Emergency contact phone auto-format,passed,0,e2e.patients.spec.js
+TC-PAT-067,chromium,TC-PAT-067: Add maximum emergency contacts,passed,0,e2e.patients.spec.js
+TC-PAT-068,chromium,TC-PAT-068: Edit existing emergency contact,passed,0,e2e.patients.spec.js
+TC-PAT-069,chromium,TC-PAT-069: Add primary insurance during registration,passed,0,e2e.patients.spec.js
+TC-PAT-070,chromium,TC-PAT-070: Register self-pay patient (no insurance),passed,0,e2e.patients.spec.js
+TC-PAT-071,chromium,TC-PAT-071: Add secondary and tertiary insurance,passed,0,e2e.patients.spec.js
+TC-PAT-072,chromium,TC-PAT-072: Insurance selected but mandatory insurance fields empty,passed,0,e2e.patients.spec.js
+TC-PAT-075,chromium,TC-PAT-075: Switch from insured to self-pay,passed,0,e2e.patients.spec.js
+TC-PAT-076,chromium,TC-PAT-076: Insurance date range - end before start,passed,0,e2e.patients.spec.js
+TC-PAT-077,chromium,TC-PAT-077: Change subscriber type during registration,passed,0,e2e.patients.spec.js
+TC-PAT-079,chromium,TC-PAT-079: Upload patient profile photo (JPG),passed,0,e2e.patients.spec.js
+TC-PAT-080,chromium,TC-PAT-080: Upload patient profile photo (PNG),passed,0,e2e.patients.spec.js
+TC-PAT-083,chromium,TC-PAT-083: Remove uploaded profile photo,passed,0,e2e.patients.spec.js
+TC-PAT-084,chromium,TC-PAT-084: Replace existing profile photo,passed,0,e2e.patients.spec.js
+TC-PAT-085,chromium,TC-PAT-085: Duplicate warning when matching patient exists,passed,0,e2e.patients.spec.js
+TC-PAT-086,chromium,TC-PAT-086: No duplicate warning for unique patient,passed,0,e2e.patients.spec.js
+TC-PAT-087,chromium,TC-PAT-087: Duplicate check - case sensitivity,passed,0,e2e.patients.spec.js
+TC-PAT-088,chromium,TC-PAT-088: Duplicate check during edit excludes current patient,passed,0,e2e.patients.spec.js
+TC-PAT-089,chromium,TC-PAT-089: Duplicate check with partial fields,passed,0,e2e.patients.spec.js
+TC-PAT-090,chromium,TC-PAT-090: Access patient list with valid authentication,passed,0,e2e.patients.spec.js
+TC-PAT-091,chromium,TC-PAT-091: Access patient list without authentication,passed,0,e2e.patients.spec.js
+TC-PAT-G01,chromium,TC-PAT-G01: Patient is their own guarantor,passed,0,e2e.patients.spec.js
+TC-PAT-G02,chromium,TC-PAT-G02: Add separate guarantor,passed,0,e2e.patients.spec.js
+TC-PAT-G03,chromium,TC-PAT-G03: Add guarantor with different address,passed,0,e2e.patients.spec.js
+TC-PAT-G04,chromium,TC-PAT-G04: Add multiple guarantors,passed,0,e2e.patients.spec.js
+TC-PAT-G05,chromium,TC-PAT-G05: Remove a guarantor,passed,0,e2e.patients.spec.js
+TC-PAT-U01,chromium,TC-PAT-U01: Toggle "Show Mandatory Fields Only",passed,0,e2e.patients.spec.js
+TC-PAT-U02,chromium,TC-PAT-U02: Toggle back to show all fields,passed,0,e2e.patients.spec.js
+TC-PAT-U03,chromium,TC-PAT-U03: Row actions menu in patient list,passed,0,e2e.patients.spec.js
+TC-PAT-U04,chromium,TC-PAT-U04: Patient avatar display in list,passed,0,e2e.patients.spec.js
+TC-PAT-U05,chromium,TC-PAT-U05: Mandatory field highlighting,passed,0,e2e.patients.spec.js
+Test ID,Module,Test Title,Status,Duration (ms),Spec File

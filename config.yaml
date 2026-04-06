@@ -1,0 +1,9 @@
+reporting:
+  tool: allure
+  results_path: ./allure-results
+  report_path: ./allure-report
+
+environment:
+  base_url: https://solid-ai.customemr.ai
+  timeout: 10000
+  retries: 0

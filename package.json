@@ -17,13 +17,18 @@
     "test:triage": "npx playwright test tests/e2e/triage.spec.js",
     "test:settings": "npx playwright test tests/e2e/settings.spec.js",
     "test:cpt-codes": "npx playwright test tests/e2e/cpt-codes.spec.js",
-    "report": "npx playwright show-report"
+    "report": "npx playwright show-report",
+    "report:allure": "allure generate allure-results -o allure-report --clean && allure open allure-report",
+    "report:allure:generate": "allure generate allure-results -o allure-report --clean",
+    "report:allure:open": "allure open allure-report"
   },
   "dependencies": {
     "@faker-js/faker": "^9.0.0",
-    "dotenv": "^16.4.5"
+    "dotenv": "^16.4.5",
+    "js-yaml": "^4.1.1"
   },
   "devDependencies": {
-    "@playwright/test": "^1.49.0"
+    "@playwright/test": "^1.49.0",
+    "allure-playwright": "^3.6.0"
   }
 }
