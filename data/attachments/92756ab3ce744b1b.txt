@@ -1,0 +1,1 @@
+SECURITY FINDING: CPT codes page accessible without authentication
